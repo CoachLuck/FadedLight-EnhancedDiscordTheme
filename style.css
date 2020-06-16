@@ -1,0 +1,81 @@
+@import url(https://enhanceddiscord.com/theme_v2.css);
+
+:root {
+	--ed-logo: none;
+}
+.theme-dark {
+    --bg: rgb(2,0,36);
+	--bg: linear-gradient(16deg, rgba(2,0,36,1) 0%, rgba(88,36,136,1) 47%, rgba(0,212,255,1) 100%);
+    --bg-overlay: rgba(0, 0, 0, 0.32);
+	--header-primary: #85f4ff;
+    --accent: #34a8cf;
+    --accent-bright: #00ddff;
+    --accent-back: #4f1c92;
+    --accent-back-bright: #ae00ff;
+	--channels-default: #c1c1c1;
+    --icon-color: rgba(255, 255, 255, 0.75);
+    --link-color: #00ddff;
+    --link-color-hover: #1abcfa;
+	--popup-background: #27004a;
+    --popup-highlight: #3b0067;
+    --unread-color: var(--accent-bright);
+    --typing-height: 25px;
+    --gift-button: none;
+    --gif-picker: none;
+	--trans02: rgba(0, 0, 0, .1);
+	--trans07: rgba(110, 179, 224, .05);
+	--trans10: rgba(92, 138, 208, 0.08);
+	--text-normal: #e8e8e8;
+}
+
+.theme-dark .footer-3rDWdC {
+	background-color: #265a90;
+}
+
+.theme-dark .keybind-KpFkfr {
+    color: #fff;
+}
+
+.nowPlayingScroller-2XrVUt {
+    background-color: rgba(0, 0, 0, .1);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.scroller-1JbKMe {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.channelTextArea-rNsIhG {
+    background-color: rgba(110, 179, 224, .09);
+	border-radius: 0;
+}
+
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+    background-color: var(--popup-background);
+    color: var(--accent-bright);
+}
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {
+    background-color: var(--popup-background);
+    color: var(--text-normal);
+}
+
+.bodyTitle-Y0qMQz {
+    color: var(--text-normal);
+}
+.note-3kmerW textarea {
+	color: var(--text-normal);
+}
+.theme-dark .quickMessage-1yeL4E {
+    color: var(--text-normal);
+}
+.theme-dark .listItemTooltip-CDcY8J {
+	color: var(--text-normal);
+	background-color: var(--popup-background);
+}
+.scroller-2FKFPG::-webkit-scrollbar {
+	width: 16px;
+	height: 16px;
+	display: none;
+}
