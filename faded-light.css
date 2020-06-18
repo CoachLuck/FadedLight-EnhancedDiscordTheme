@@ -130,17 +130,23 @@
 .scroller-tlc3kG {
     background: linear-gradient(144deg, rgba(2,0,36,1) 0%, rgba(88,36,136,1) 49%, rgba(0,212,255,1) 100%);
 }
+
+/* */
 .badge-2qGa_k:after {
     background-color: var(--accent-bright);
 }
 .mentioned-xhSam7:before {
     background-color: var(--accent-bright);
 }
+
+/* tooltip hover background color */
 .theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
     background-color: rgba(79, 28, 146, 1);
 	background: rgb(2,0,36);
 	background: linear-gradient(144deg, rgba(2,0,36,.90) 0%, rgba(88,36,136,.90) 22%, rgba(0,212,255,.90) 100%);
 }
+
+/* tooltip hover pointer color */
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK, .theme-light .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
     border-top-color: #00ddff;
 }
