@@ -14,8 +14,7 @@
 	--accent-back-bright: #ae00ff;
 	--channels-default: #c1c1c1;
 	--icon-color: rgba(255, 255, 255, 0.75);
-	--link-color: #00ddff;
-	--link-color-hover: #1abcfa;
+	--text-link: rgba(255, 0, 247, 1);
 	--popup-background: #27004a;
 	--popup-highlight: #3b0067;
 	--unread-color: var(--accent-bright);
@@ -26,6 +25,9 @@
 	--trans07: rgba(110, 179, 224, .05);
 	--trans10: rgba(92, 138, 208, 0.08);
 	--text-normal: #e8e8e8;
+	--background-mentioned: rgba(79, 28, 146, .2);
+	--background-mentioned-hover: rgba(135, 94, 237, 0.2);
+    --background-accent: #4f1c92a8;
 }
 
 .theme-dark .footer-3rDWdC {
@@ -124,4 +126,21 @@
 }
 :root .css-123uooi-menu {
 	background-color: #00608af5;
+}
+.scroller-tlc3kG {
+    background: linear-gradient(144deg, rgba(2,0,36,1) 0%, rgba(88,36,136,1) 49%, rgba(0,212,255,1) 100%);
+}
+.badge-2qGa_k:after {
+    background-color: var(--accent-bright);
+}
+.mentioned-xhSam7:before {
+    background-color: var(--accent-bright);
+}
+.theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
+    background-color: rgba(79, 28, 146, 1);
+	background: rgb(2,0,36);
+	background: linear-gradient(144deg, rgba(2,0,36,.90) 0%, rgba(88,36,136,.90) 22%, rgba(0,212,255,.90) 100%);
+}
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK, .theme-light .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+    border-top-color: #00ddff;
 }
