@@ -150,3 +150,12 @@
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK, .theme-light .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
     border-top-color: #00ddff;
 }
+.theme-dark .popout-38lTFE {
+    background-color: #2c344c;
+    -webkit-box-shadow: 0 8px 16px rgba(0,0,0,.24);
+    box-shadow: 0 8px 16px rgba(0,0,0,.24);
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #2e0f56;
+    color: hsla(0,0%,100%,.8);
+}
